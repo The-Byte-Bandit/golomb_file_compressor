@@ -1,6 +1,7 @@
 # ---- Core Framework ----
 Flask
 Werkzeug
+gunicorn
 
 # ---- Database ----
 mysql-connector-python
