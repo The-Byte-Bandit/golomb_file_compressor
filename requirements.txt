@@ -1,0 +1,27 @@
+# ---- Core Framework ----
+Flask
+Werkzeug
+
+# ---- Database ----
+mysql-connector-python
+SQLAlchemy
+Flask-SQLAlchemy
+pymysql
+
+
+
+# ---- Authentication & Security ----
+PyJWT
+bcrypt
+
+# ---- Data Handling ----
+pandas
+numpy
+
+# ---- Utilities ----
+python-dotenv
+
+# ---- Development (Optional) ----
+Flask-Cors
+Flask-Migrate
+cryptography
