@@ -3,6 +3,7 @@ Flask
 Werkzeug
 gunicorn
 Flask-Bcrypt
+Flask-Cors
 # ---- Database ----
 mysql-connector-python
 SQLAlchemy

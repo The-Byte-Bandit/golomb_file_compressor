@@ -12,6 +12,8 @@ from dotenv import load_dotenv
 from sqlalchemy import create_engine
 from sqlalchemy_utils import database_exists, create_database
 import json
+from flask_cors import CORS 
+
 
 
 
@@ -20,6 +22,7 @@ import json
 # ================================================================
 load_dotenv()
 app = Flask(__name__)
+CORS(app)
 
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 app.config['SQLALCHEMY_DATABASE_URI'] = (
